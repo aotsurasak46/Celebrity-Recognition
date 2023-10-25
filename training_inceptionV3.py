@@ -17,9 +17,9 @@ from matplotlib import pyplot as plt
 from tensorflow.keras.utils import to_categorical
 
 num_classes = 17
-num_nodes = 1024
+num_nodes = 256
 learningrate = 0.0001
-batch_size = 128
+batch_size = 32
 image_size = (299  , 299)
 epochs = 20
 dataset_dir = 'dataset'
